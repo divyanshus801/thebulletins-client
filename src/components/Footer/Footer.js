@@ -14,10 +14,10 @@ const Footer = () => {
         <a href="mailto:thebulletins45@gmail.com" target="_top">
           <span style={{fontSize: "25px", fontWeight: "500"}}>Contact us    </span>
         </a>
-        <a  target="__blank">
+        <a href="www.thebulletins.in" target="__blank">
          <i className="fab fa-whatsapp fa-2x"></i>
         </a>
-        <a  target="__blank">
+        <a href="www.thebulletins.in" target="__blank">
           <i className="fab fa-instagram fa-2x"></i>
         </a>
       </div>

@@ -4,6 +4,7 @@ import NewsCard from "../NewsCard/NewsCard";
 import "./NewsContent.css";
 
 const NewsContent = ({ newsArray, loadMore, setLoadMore, newsResults }) => {
+  
   return (
     <Container maxWidth="md">
       <div className="content">

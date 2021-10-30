@@ -73,6 +73,46 @@
     height: 100%;
     padding-bottom: 20px;
   }
+  
+}
+
+.iconshare {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fa-whatsapp-square  {
+  color:#25d366;
+  background:
+   #ffffff;
+   
+}
+
+.fa-facebook-square  {
+  color:#3b5998;
+  background:
+   #ffffff;
+   
+}
+
+.fa-telegram  {
+  color:#0088cc;
+  background:
+  #ffffff;
+  
+}
+
+.fa-twitter-square  {
+  color:#1DA1F2;
+  background:
+   #ffffff;
+   
+}
+.lowerSharebuttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 

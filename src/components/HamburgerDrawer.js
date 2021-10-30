@@ -19,7 +19,6 @@ import {
   useMediaQuery,
 } from "@material-ui/core"; // added
 
-import categories from "../data/category";
 
 const useStyles = makeStyles({
   list: {

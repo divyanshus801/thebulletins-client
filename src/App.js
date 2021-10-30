@@ -4,18 +4,12 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import NavInshort from "./components/NavInshort";
 import NewsContent from "./components/NewsContent/NewsContent";
-import ReactGA from 'react-ga';
 
 
-function initializeAnalytics(){
-  ReactGA.initialize( process.env.GA_TRACKING_ID);
-  ReactGA.pageview('/homePage');
-}
+
 
 
 function App() {
-
-  initializeAnalytics();
   const [newsArray, setNewsArray] = useState([]);
   const [newsResults, setNewsResults] = useState();
   const [loadMore, setLoadMore] = useState(20);

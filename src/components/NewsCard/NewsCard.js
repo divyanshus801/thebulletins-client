@@ -12,7 +12,7 @@ const NewsCard = ({ newsItem }) => {
   const time = hour > 12 ? true : false;
 
   const API = process.env.REACT_APP_BACKEND;
-
+  
   return (
     <ScrollableAnchor id={newsItem._id}>
       <div className="newsCard">
@@ -55,19 +55,19 @@ const NewsCard = ({ newsItem }) => {
               <br/>
               <hr style={{ width: "90%" }} />
               <span className="iconshare">
-              <a className="source" href={`https://api.whatsapp.com/send?text=https%3A%2F%2Fwww.thebulletins.in%2F%23${newsItem._id}`} target="__blank">
+              <a className="source" href={`https://api.whatsapp.com/send?text=https%3A%2F%2Fwww.thebulletins.in%2F%23${newsItem._id}%0A${newsItem.title}`} target="__blank">
               <i  className="fab fa-whatsapp-square fa-2x"></i>
               </a>
 
-              <a className="source" href={`https://telegram.me/share/url?url=https%3A%2F%2Fwww.thebulletins.in%2F%23${newsItem._id}&text=`} target="__blank">
+              <a className="source" href={`https://telegram.me/share/url?url=https%3A%2F%2Fwww.thebulletins.in%2F%23${newsItem._id}&text=${newsItem.title}`} target="__blank">
               <i  className="fab fa-telegram fa-2x"></i>
               </a>
 
-              <a className="source" href={`https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.thebulletins.in%2F%23${newsItem._id}&text=`} target="__blank">
+              <a className="source" href={`https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.thebulletins.in%2F%23${newsItem._id}&text=${newsItem.title}`} target="__blank">
               <i  className="fab fa-twitter-square fa-2x"></i>
               </a>
 
-              <a className="source" href={`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.thebulletins.in%2F%23${newsItem._id}`} target="__blank">
+              <a className="source" href={`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.thebulletins.in%2F%23${newsItem._id}&text=${newsItem.title}`} target="__blank">
               <i  className="fab fa-facebook-square fa-2x"></i>
               </a>
             </span>

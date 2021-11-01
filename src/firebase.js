@@ -2,12 +2,12 @@ import firebase from 'firebase';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDKfqUD1Pc-H5AdEuwJozBGrgYIJp0bvaI",
-  authDomain: "dev-test-581be.firebaseapp.com",
-  projectId: "dev-test-581be",
-  storageBucket: "dev-test-581be.appspot.com",
-  messagingSenderId: "697068624992",
-  appId: "1:697068624992:web:5cd673c7fcf904b765f705"
+  apiKey: "AIzaSyDNoXYFUNAPcT1dowd20aDKeiWdImeOyvQ",
+  authDomain: "thebulletins-latest.firebaseapp.com",
+  projectId: "thebulletins-latest",
+  storageBucket: "thebulletins-latest.appspot.com",
+  messagingSenderId: "370045202163",
+  appId: "1:370045202163:web:b6058644d5c231c93d5186"
 };
 
   // Initialize Firebase

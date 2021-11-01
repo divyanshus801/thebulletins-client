@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
    }
 
 firebase.initializeApp({
-  messagingSenderId: "697068624992",
+  messagingSenderId: "370045202163",
   })
 
 const initMessaging = firebase.messaging()

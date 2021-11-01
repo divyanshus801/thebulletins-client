@@ -35,7 +35,15 @@
 
   gtag('config', 'G-M94H84T7LX');
 </script>
-<script charset="UTF-8" src="//web.webpushs.com/js/push/3221ba7c6966af4d9101aa0aea23ddaa_1.js" async></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "15ccd127-3e60-492c-89d3-88ab79b44d04",
+    });
+  });
+</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

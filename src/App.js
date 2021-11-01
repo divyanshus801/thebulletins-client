@@ -7,8 +7,6 @@ import NewsContent from "./components/NewsContent/NewsContent";
 import firebase from "./firebase";
 
 
-
-
 function App() {
   React.useEffect(() => {
    const msg=firebase.messaging();

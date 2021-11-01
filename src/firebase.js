@@ -2,15 +2,15 @@ import firebase from 'firebase';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBXQSt_gAjP5iQGs1z563Y2m8Df4fjERbk",
-    authDomain: "thebulletins-final.firebaseapp.com",
-    projectId: "thebulletins-final",
-    storageBucket: "thebulletins-final.appspot.com",
-    messagingSenderId: "119279807091",
-    appId: "1:119279807091:web:5bb2c53b431f916cee9806"
-  };
+  apiKey: "AIzaSyDKfqUD1Pc-H5AdEuwJozBGrgYIJp0bvaI",
+  authDomain: "dev-test-581be.firebaseapp.com",
+  projectId: "dev-test-581be",
+  storageBucket: "dev-test-581be.appspot.com",
+  messagingSenderId: "697068624992",
+  appId: "1:697068624992:web:5cd673c7fcf904b765f705"
+};
 
   // Initialize Firebase
-   firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
 
- export default firebase;
+  export default firebase;

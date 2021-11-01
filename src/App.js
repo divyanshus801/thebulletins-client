@@ -4,19 +4,11 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import NavInshort from "./components/NavInshort";
 import NewsContent from "./components/NewsContent/NewsContent";
-import firebase from "./firebase";
+
 
 
 function App() {
-  React.useEffect(() => {
-   const msg=firebase.messaging();
-   msg.requestPermission().then(() => {
-     return msg.getToken();
-   }).then((data)=> {
-    console.warn("token",data);
-   })
-  })
-
+  
   const [newsArray, setNewsArray] = useState([]);
   const [newsResults, setNewsResults] = useState();
   const [loadMore, setLoadMore] = useState(20);
